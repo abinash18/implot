@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.6)
 
-add_library(IMPLOT STATIC implot.cpp implot_items.cpp implot.h implot_internal.h)
+add_library(IMPLOT STATIC implot.cpp implot_items.cpp implot.h implot_internal.h implot_demo.cpp)
 target_link_libraries(IMPLOT PRIVATE IMGUI)
 
 if(MSVC)
